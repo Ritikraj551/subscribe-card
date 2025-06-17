@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="flex bg-zinc-600 h-screen justify-center items-center">
+      <div class="rounded-2xl bg-zinc-900 p-4 mx-6">
+        <div class="flex flex-col md:flex-row rounded-l-xl">
+          <img
+            src="./images/image.png"
+            alt=""
+            class="h-80 md:h-64 rounded-xl md:rounded-l-xl md:rounded-r-none object-fit hover:scale-105 duration-500"
+          />
+          <div class="p-6 md:p-12">
+            <h2
+              class="font-serif text-xl font-medium text-center text-white md:text-left"
+            >
+              Get Diet and Fitness tips in your email
+            </h2>
+            <p
+              class="max-w-xs my-4 text-xs text-center md:text-left text-white"
+            >
+              Subscribe to our newsletter to stay upadated with the latest
+              trends
+            </p>
+
+            <div
+              class="flex flex-col md:flex-row mt-5 space-y-4 md:space-x-3 md:space-y-0"
+            >
+              <input
+                type="text"
+                value="Enter Your Email Address"
+                class="focus:outline-none text-white font-light p-2 px-4 text-center rounded-xl bg-zinc-600 border-2 border-zinc-950"
+              />
+              <button
+                class="rounded-md px-5 py-3 text-xs border-2 border-zinc-950 bg-lime-400 hover:bg-lime-500 hover:text-white hover:scale-105 duration-500"
+              >
+                Subscribe
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
